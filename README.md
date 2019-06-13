@@ -6,4 +6,4 @@
 
 ## Running the docker container for example site
 
-`docker run -d -p 8081:80 -v `pwd`/sites-enabled:/etc/nginx/sites-enabled -v `pwd`/app:/var/www/html --name nginx-php72 keepwalking/nginx-php72`
+`docker run -d -p 8081:80 -v $(pwd)/sites-enabled:/etc/nginx/sites-enabled -v $(pwd)/app:/var/www/html --name nginx-php72 keepwalking/nginx-php72`
